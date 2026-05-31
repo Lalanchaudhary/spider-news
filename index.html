@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Spider News Cricket delivers breaking cricket news, live scores, IPL 2026 points table, ICC rankings, predictions, highlights, and expert match updates.">
+  <meta name="keywords" content="Spider News Cricket, cricket news, IPL 2026, live cricket scores, ICC rankings, cricket predictions">
+  <meta name="author" content="Spider News">
+  <meta property="og:title" content="Spider News (Cricket) - Latest Cricket News, Scores & IPL 2026">
+  <meta property="og:description" content="Follow live cricket scores, breaking news, IPL 2026 updates, match predictions, rankings, highlights, and expert coverage.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://spidernews.example.com">
+  <title>Spider News (Cricket) | Latest Cricket News, Scores & IPL 2026</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "Spider News (Cricket)",
+      "url": "https://spidernews.example.com",
+      "logo": "https://spidernews.example.com/images/logo.png",
+      "sameAs": [
+        "https://twitter.com/spidernews",
+        "https://facebook.com/spidernews",
+        "https://instagram.com/spidernews"
+      ],
+      "publishingPrinciples": "https://spidernews.example.com/editorial-policy"
+    }
+  </script>
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Loading Spider News">
+    <div class="loader-mark">🕷️</div>
+    <span>Loading Spider News</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#home" class="logo" aria-label="Spider News home">🕷️ Spider News</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-panel" id="navPanel">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#latest-news">Latest News</a></li>
+          <li><a href="#ipl-2026">IPL 2026</a></li>
+          <li><a href="#international">International Cricket</a></li>
+          <li><a href="#predictions">Match Predictions</a></li>
+          <li><a href="#rankings">Rankings</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <form class="search" id="searchForm" role="search">
+          <input type="search" id="searchInput" placeholder="Search cricket news..." aria-label="Search cricket news">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="ticker" aria-label="Breaking news">
+      <strong>Breaking</strong>
+      <div class="ticker-track">
+        <span>India announce squad for T20 tri-series</span>
+        <span>IPL 2026 auction window expected in December</span>
+        <span>New Zealand spinner tops ODI economy charts</span>
+        <span>England confirm pink-ball Test against South Africa</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Featured Story</p>
+        <h1>India Crushes Australia in Thrilling T20 Series Decider</h1>
+        <p>A packed stadium, a final-over finish, and a fearless middle-order chase made this a night cricket fans will replay for years.</p>
+        <a class="primary-btn" href="#latest-news">Read More</a>
+      </div>
+      <div class="hero-stats" aria-label="Site statistics">
+        <div><span class="counter" data-target="128">0</span><small>Daily Stories</small></div>
+        <div><span class="counter" data-target="46">0</span><small>Live Updates</small></div>
+        <div><span class="counter" data-target="12">0</span><small>Expert Panels</small></div>
+      </div>
+    </section>
+
+    <section class="section shell two-column" id="latest-news">
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow">Latest Cricket News</p>
+          <h2>Fresh from the crease</h2>
+        </div>
+        <div class="news-grid" id="newsGrid" aria-live="polite"></div>
+        <p class="empty-state" id="emptyState">No stories matched your search. Try another cricket keyword.</p>
+      </div>
+
+      <aside class="sidebar" aria-label="Cricket sidebar widgets">
+        <article class="widget">
+          <h3>Trending News</h3>
+          <ol>
+            <li>Rahul's strike-rate surge changes India's T20 balance</li>
+            <li>RCB prepare mega retention call before IPL 2026</li>
+            <li>ICC reviews slow-over penalties for franchise leagues</li>
+            <li>Teen pacer clocks 151 kph in domestic final</li>
+          </ol>
+        </article>
+        <article class="widget">
+          <h3>Upcoming Matches</h3>
+          <ul class="compact-list">
+            <li><span>India vs Pakistan</span><b>Jun 08</b></li>
+            <li><span>England vs SA</span><b>Jun 12</b></li>
+            <li><span>MI vs CSK</span><b>Jun 18</b></li>
+          </ul>
+        </article>
+        <article class="widget">
+          <h3>Top Players</h3>
+          <div class="player-pills">
+            <span>Virat Kohli</span>
+            <span>Jasprit Bumrah</span>
+            <span>Smriti Mandhana</span>
+            <span>Rashid Khan</span>
+          </div>
+        </article>
+        <article class="widget">
+          <h3>Most Read Articles</h3>
+          <ol>
+            <li>How impact player tactics are changing IPL chases</li>
+            <li>Top 10 yorker specialists in world cricket</li>
+            <li>Why wrist spin is back in powerplay plans</li>
+          </ol>
+        </article>
+      </aside>
+    </section>
+
+    <section class="section shell" id="international">
+      <div class="section-heading">
+        <p class="eyebrow">Live Match Center</p>
+        <h2>Scores moving right now</h2>
+      </div>
+      <div class="match-grid">
+        <article class="match-card live">
+          <div class="match-top"><span>India vs Australia</span><b>LIVE</b></div>
+          <h3>India 187/4 <small>(18.2)</small></h3>
+          <p>Australia need 28 from 10 balls</p>
+          <span class="live-dot"></span>
+        </article>
+        <article class="match-card live">
+          <div class="match-top"><span>England vs South Africa</span><b>LIVE</b></div>
+          <h3>England 92/2 <small>(11.0)</small></h3>
+          <p>Powerplay control shifts after two wickets</p>
+          <span class="live-dot"></span>
+        </article>
+        <article class="match-card">
+          <div class="match-top"><span>New Zealand vs Sri Lanka</span><b>Tea</b></div>
+          <h3>NZ 244/6 <small>(72.0)</small></h3>
+          <p>Williamson anchors a patient Test innings</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="ipl-2026">
+      <div class="section-heading">
+        <p class="eyebrow">IPL 2026</p>
+        <h2>Points table</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Matches</th>
+              <th>Wins</th>
+              <th>Losses</th>
+              <th>NRR</th>
+              <th>Points</th>
+            </tr>
+          </thead>
+          <tbody id="pointsTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section prediction-band" id="predictions">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Match Predictions</p>
+          <h2>Data-led previews</h2>
+        </div>
+        <div class="prediction-grid" id="predictionGrid"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="rankings">
+      <div class="section-heading">
+        <p class="eyebrow">ICC Rankings</p>
+        <h2>Top 10 players</h2>
+      </div>
+      <div class="tabs" role="tablist" aria-label="ICC ranking categories">
+        <button class="tab active" data-rank="batsmen" role="tab" aria-selected="true">Batsmen</button>
+        <button class="tab" data-rank="bowlers" role="tab" aria-selected="false">Bowlers</button>
+        <button class="tab" data-rank="allRounders" role="tab" aria-selected="false">All-Rounders</button>
+      </div>
+      <div class="rankings-list" id="rankingsList"></div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-heading">
+        <p class="eyebrow">Video Highlights</p>
+        <h2>Watch the turning points</h2>
+      </div>
+      <div class="video-grid">
+        <article class="video-card">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Match highlights" loading="lazy" allowfullscreen></iframe>
+          <h3>Match Highlights</h3>
+        </article>
+        <article class="video-card">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Best catches" loading="lazy" allowfullscreen></iframe>
+          <h3>Best Catches</h3>
+        </article>
+        <article class="video-card">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Top wickets" loading="lazy" allowfullscreen></iframe>
+          <h3>Top Wickets</h3>
+        </article>
+        <article class="video-card">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Player interviews" loading="lazy" allowfullscreen></iframe>
+          <h3>Player Interviews</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="shell newsletter-inner">
+        <div>
+          <p class="eyebrow">Newsletter</p>
+          <h2>Get the morning cricket brief</h2>
+          <p>Smart headlines, injury updates, fantasy notes, and tactical reads delivered before the first ball.</p>
+        </div>
+        <form id="newsletterForm">
+          <input type="email" placeholder="Enter your email" aria-label="Email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section shell contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Send us a tip or question</h2>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Name" aria-label="Name" required>
+        <input type="email" placeholder="Email" aria-label="Email" required>
+        <input type="text" placeholder="Subject" aria-label="Subject" required>
+        <textarea placeholder="Message" aria-label="Message" rows="6" required></textarea>
+        <button type="submit">Submit Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div>
+        <h3>🕷️ Spider News</h3>
+        <p>Independent cricket coverage built for fans who follow every session, auction, injury update, and final-over twist.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#latest-news">Latest News</a>
+        <a href="#ipl-2026">IPL 2026</a>
+        <a href="#rankings">Rankings</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <a href="#latest-news">IPL</a>
+        <a href="#international">International</a>
+        <a href="#predictions">Predictions</a>
+        <a href="#rankings">ICC</a>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="socials" aria-label="Social media links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Spider News (Cricket). All rights reserved.</p>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
