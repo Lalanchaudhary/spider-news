@@ -10,7 +10,7 @@
   --blue: #0d47a1;
   --blue-2: #102c5c;
   --gold: #ffd166;
-  --shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+  --spidernew: 0 24px 60px rgba(0, 0, 0, 0.34);
 }
 
 * {
@@ -172,7 +172,7 @@ textarea {
   background: linear-gradient(135deg, var(--red), var(--red-2));
   font-weight: 900;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-spidernew 0.2s ease;
 }
 
 .search button {
@@ -185,7 +185,7 @@ textarea {
 .primary-btn:hover,
 .news-card button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 24px rgba(239, 35, 60, 0.24);
+  box-spidernew: 0 12px 24px rgba(239, 35, 60, 0.24);
 }
 
 .menu-toggle {
@@ -421,7 +421,7 @@ textarea {
   border: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(17, 28, 48, 0.96), rgba(8, 14, 26, 0.96));
   border-radius: 8px;
-  box-shadow: var(--shadow);
+  box-spidernew: var(--spidernew);
 }
 
 .news-card {
@@ -588,7 +588,7 @@ textarea {
   height: 14px;
   border-radius: 50%;
   background: var(--red);
-  box-shadow: 0 0 0 0 rgba(239, 35, 60, 0.72);
+  box-spidernew: 0 0 0 0 rgba(239, 35, 60, 0.72);
   animation: livePulse 1.3s infinite;
 }
 
@@ -847,7 +847,7 @@ tbody tr:hover {
   border-radius: 50%;
   color: #fff;
   background: var(--red);
-  box-shadow: var(--shadow);
+  box-spidernew: var(--spidernew);
   cursor: pointer;
 }
 
@@ -861,7 +861,7 @@ tbody tr:hover {
 }
 
 @keyframes livePulse {
-  to { box-shadow: 0 0 0 18px rgba(239, 35, 60, 0); }
+  to { box-spidernew: 0 0 0 18px rgba(239, 35, 60, 0); }
 }
 
 @keyframes pulse {
